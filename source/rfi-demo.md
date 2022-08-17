@@ -1,6 +1,7 @@
 -----------------------------------------------------------------------------
 github  : https://github.com/casualwriter/casual-markdown 
 title   : Casual-Markdown RFI DEMO
+style   : #header { background: linear-gradient(to bottom right, #F00, #f22); }
 menu    :    
   Home            : index.md
   Supported Syntax: md-syntax.md
