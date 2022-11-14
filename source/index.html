@@ -37,11 +37,11 @@ a 	 { background:transparent; text-decoration:none; color:navy } a:active, a:hov
 <script>
 allowfromall = "";
 
-allowfromremotehost = "https://example.com/raw/dir-of-md-files/";
+allowfromremotehost = "https://raw.githubusercontent.com/PfeifferchsForks/casual-markdown-page/main/source/";
 
 allowfromoriginlocation = window.location.protocol + "//" + window.location.hostname + (window.location.port ? ':' + window.location.port: '') + "/"; 
 
-allowfrom = allowfromoriginlocation;
+allowfrom = allowfromremotehost;
 
 resurlunclean = location.href.split('?file=')[1]||'index.md';
 let resurl = resurlunclean.replaceAll("../",""); 
